@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Root>
+  <User Last="false">
+    <Name>admin</Name>
+    <Pwd>X4oStpdrwX98j1Uh4HRmTQ==</Pwd>
+    <Remember>1</Remember>
+    <AutoLogin>0</AutoLogin>
+  </User>
+  <User Last="false">
+    <Name>lpy</Name>
+    <Pwd>dpWkypl9GDprvh1PsnU8vQ==</Pwd>
+    <Remember>0</Remember>
+    <AutoLogin>0</AutoLogin>
+  </User>
+  <User Last="false">
+    <Name>zhiyue</Name>
+    <Pwd>Nr9oqr90uYjju54416I2bQ==</Pwd>
+    <Remember>1</Remember>
+    <AutoLogin>0</AutoLogin>
+  </User>
+  <User Last="true">
+    <Name>user</Name>
+    <Pwd>yD/JspDs6yEWKOuoHBTBpmEOy8IpnkNl9rMjvc9lwJQ=</Pwd>
+    <Remember>1</Remember>
+    <AutoLogin>0</AutoLogin>
+  </User>
+</Root>

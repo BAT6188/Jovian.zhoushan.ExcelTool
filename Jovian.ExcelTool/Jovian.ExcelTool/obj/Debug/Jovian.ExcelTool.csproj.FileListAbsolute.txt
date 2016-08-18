@@ -1,0 +1,17 @@
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\bin\Debug\Jovian.ExcelTool.exe.config
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\bin\Debug\Jovian.ExcelTool.exe
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\bin\Debug\Jovian.ExcelTool.pdb
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Jovian.ExcelTool.csprojResolveAssemblyReference.cache
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Login.baml
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Login.g.cs
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\App.g.cs
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Jovian.ExcelTool_MarkupCompile.cache
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Jovian.ExcelTool.g.resources
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Jovian.ExcelTool.Properties.Resources.resources
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Jovian.ExcelTool.csproj.GenerateResource.Cache
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Jovian.ExcelTool.exe
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\Jovian.ExcelTool.pdb
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\bin\Debug\log4net.dll
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\bin\Debug\log4net.xml
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\MainWindow.baml
+D:\projects\Jovian.zhoushan.ExcelTool\Jovian.ExcelTool\Jovian.ExcelTool\obj\Debug\MainWindow.g.cs

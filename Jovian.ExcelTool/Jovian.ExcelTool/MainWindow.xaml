@@ -1,0 +1,99 @@
+﻿<Window x:Class="Jovian.ExcelTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="800" Closed="Window_Closed" WindowState="Maximized">
+    <Window.Resources>
+        <Style TargetType="ListView">
+            <Style.Setters>
+                <Setter Property="Background" Value="Transparent"></Setter>
+                <Setter Property="Foreground" Value="Black"></Setter>
+                <Setter Property="Margin" Value="0"></Setter>
+            </Style.Setters>
+        </Style>
+        <Style TargetType="{x:Type GridViewColumnHeader}">
+            <Style.Setters>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="GridViewColumnHeader">
+                            <Grid>
+                                <Border Name="HeaderBorder"
+                            BorderThickness="0"
+                            Padding="2,0,2,0">
+
+                                    <ContentPresenter Name="HeaderContent"
+                       TextElement.Foreground="Black"
+                       Margin="0,0,0,1"
+                         VerticalAlignment="{TemplateBinding
+                       VerticalContentAlignment}"
+                          HorizontalAlignment="Left"
+                       RecognizesAccessKey="True"
+                          SnapsToDevicePixels=
+                          "{TemplateBinding SnapsToDevicePixels}"/>
+
+                                </Border>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style.Setters>
+        </Style>
+        <Style TargetType="ListViewItem">
+            <Style.Setters>
+                <Setter Property="Background" Value="Transparent"></Setter>
+                <Setter Property="Foreground" Value="Blue"></Setter>
+            </Style.Setters>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="ItemsControl.AlternationIndex" Value="1"></Condition>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background" Value="#EEEEEEEE"></Setter>
+                    <Setter Property="Foreground" Value="Black"></Setter>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Grid.Column="0" x:Name="borTop" BorderBrush="Black" BorderThickness="1" >
+            <WrapPanel>
+                <Button  x:Name="BtnSelectExcelFile" Width="100" Height="25" Content="选择文档" Click="BtnSelectExcelFile_Click" ></Button>
+                <Button x:Name="btnImport" Width="100" Height="25" Content="导入数据库" Click="btnImport_Click"></Button>
+            </WrapPanel>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" x:Name="borContent" BorderBrush="Black" BorderThickness="1">
+            <!--<DataGrid x:Name="dgMain" AutoGenerateColumns="True"></DataGrid>-->
+            <ListView x:Name="lvMain" AlternationCount="2" FontSize="14">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="备注" DisplayMemberBinding="{Binding Path=Remark}" ></GridViewColumn>
+                            <GridViewColumn Header="实验室编号" DisplayMemberBinding="{Binding Path=LabID}" ></GridViewColumn>
+                            <GridViewColumn Header="人员姓名" DisplayMemberBinding="{Binding Path=Name}" ></GridViewColumn>
+                            <GridViewColumn Header="性别" DisplayMemberBinding="{Binding Path=Sex}" ></GridViewColumn>
+                            <GridViewColumn Header="民族" DisplayMemberBinding="{Binding Path=Nation}" ></GridViewColumn>
+                            <GridViewColumn Header="出生日期" DisplayMemberBinding="{Binding Path=BirthDay}" ></GridViewColumn>
+                            <GridViewColumn Header="人员类型" DisplayMemberBinding="{Binding Path=PeopleType}" ></GridViewColumn>
+                            <GridViewColumn Header="户籍地址" DisplayMemberBinding="{Binding Path=HomeAddr}" ></GridViewColumn>
+                            <GridViewColumn Header="居住地址" DisplayMemberBinding="{Binding Path=LiveAddr}" ></GridViewColumn>
+                            <GridViewColumn Header="身份证号" DisplayMemberBinding="{Binding Path=CardID}" ></GridViewColumn>
+                            <GridViewColumn Header="涉案名称" DisplayMemberBinding="{Binding Path=CaseName}" ></GridViewColumn>
+                            <GridViewColumn Header="涉案性质" DisplayMemberBinding="{Binding Path=CaseNature}" ></GridViewColumn>
+                            <GridViewColumn Header="委托单位行政区划" DisplayMemberBinding="{Binding Path=CompanyAreaID}" ></GridViewColumn>
+                            <GridViewColumn Header="送检人通讯地址" DisplayMemberBinding="{Binding Path=SenderAddr}" ></GridViewColumn>
+                            <GridViewColumn Header="送检人姓名" DisplayMemberBinding="{Binding Path=Sender}" ></GridViewColumn>
+                            <GridViewColumn Header="联系电话" DisplayMemberBinding="{Binding Path=Tel}" ></GridViewColumn>
+                            <GridViewColumn Header="送检时间" DisplayMemberBinding="{Binding Path=SendTime}" ></GridViewColumn>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Border>
+    </Grid>
+</Window>
